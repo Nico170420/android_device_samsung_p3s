@@ -52,6 +52,8 @@ TARGET_USERIMAGES_USE_F2FS := true
 # Platform
 TARGET_BOARD_PLATFORM := universal2100_r
 TARGET_BOARD_PLATFORM_GPU := mali-g78
+DEVICE_CODENAME := p3s
+DEVICE_PATH := device/samsung/$(DEVICE_CODENAME)
 
 # Kernel
 TARGET_PREBUILT_KERNEL := device/samsung/p3s/prebuilt/Image
