@@ -153,5 +153,5 @@ TWRP_INCLUDE_LOGCAT := true
 
 # PBRP Stuff 
 PB_DISABLE_DEFAULT_DM_VERITY := true 
-PB_TORCH_PATH := "/sys/class/camera/flash" 
+PB_TORCH_PATH := "/sys/class/leds/torch-sec1/" 
 PB_TORCH_MAX_BRIGHTNESS := 1
