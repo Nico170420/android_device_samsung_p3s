@@ -14,6 +14,8 @@
 # limitations under the License.
 #
 
+BETA_BUILD := true
+
 # Bootloader
 BOARD_VENDOR := samsung
 TARGET_SOC := exynos2100
